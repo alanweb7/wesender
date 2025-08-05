@@ -673,7 +673,7 @@ const TicketsManagerTabs = () => {
                 </Badge>
               )}
             />
-            <Snackbar
+            {/* <Snackbar
               open={snackbarOpen}
               onClose={handleSnackbarClose}
               message={i18n.t("tickets.inbox.closedAllTickets")}
@@ -698,7 +698,7 @@ const TicketsManagerTabs = () => {
                   </Button>
                 </>
               }
-            />
+            /> */}
             <Badge
               color="primary"
               invisible={
